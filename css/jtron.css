@@ -1,0 +1,42 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.topbar-logo
+{
+  height:30px;
+  /*border:antiquewhite solid 1px;*/
+  margin: 0px 40px 0px 0px;
+  /*background:rgba(169, 169, 169, 0.15);*/
+}
+
+#welcome
+{
+  background-color:red;
+  color:white;
+}
+
+#welcome1
+{
+  background-color:gray;
+  color:white;
+}
+
+#welcome2
+{
+  background-color:gray;
+  color:white;
+}
+
+#connections
+{
+  padding:30px 20px 20px 20px;
+}
+
+#connections img
+{
+  padding:5px;
+  margin:15px;
+  width:110px;height:110px;
+}

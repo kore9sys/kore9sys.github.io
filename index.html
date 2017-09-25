@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Kore9 Systems, LLC</title>
+
+<!-- Bootstrap core CSS **** change to minified later-->
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"-->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/carousel.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jtron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a href="#" class="navbar-brand"><img class="topbar-logo" src="images/logo.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group form-group-sm">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group form-group-sm">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success btn-sm">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container"><div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <!--img class="d-block img-fluid" src="..." alt="First slide"-->
+   
+      <div class="jumbotron" id="welcome">
+            <h2>Welcome to Kore9 Systems</h2>
+            <p>Simply the best way to connect your apps and devices together on the web.</p>
+          </div>
+    </div>
+    <div class="item">
+        <!--div style="padding-top:23px;padding-left:40px; padding-right:20px;" id="welcome1"-->
+            <div class="jumbotron">
+                  <h2>State of the art drag</br>and drop node creation.</h2>
+            </div>
+         
+            <div height="180px" style="padding-bottom:40px;"><img src="images\nodes.png" alt="nodes" height="180px" style="position:absolute;right:0;bottom:0;"></div> 
+   
+    </div>
+    <div class="item">
+      <div class="jumbotron" id="welcome2">
+      <h2>Powerful, yet easy to configure..</h2>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div></div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Our mission</h2>
+              <p>kore9 is a provider of embedded hardware and software services. It enables OEMs and service providers to wirelessly monitor, control, and maintain distributed networks of products and devices. kore9 offers a hosted solution which is readily scalable, secure, and includes full data analytics and reporting capabilities.</p></div>
+        <div class="col-md-12">
+          <h2>NODZ&trade; Platform</h2>
+              <p>The kore9 NODZ&trade; Platform is a graphical environment that supports Application and IOT Nodes. By simplifying the way that nodes are connected
+              we are able to facilitate the connection of virtually any application or IOT endpoint.</p><p>Both Many to One and One to Many connections
+              are possible, and our platform excels in the connection of many seemingly disparate applications and devices. NODZ&trade; utilizes a robust
+              cloud-based architecture that is scalable and high-performance.</p></div>
+        <div class="col-md-12">
+          <h2>NODZ&trade; Connections</h2>
+              <p>NODZ&trade; sources and destinations.</p>
+              <!-- use bootstrp embed-responsive -->
+              <!-- use javascript to run a constant swap randomly selected
+                jquery might be the easiest for this -->
+              <div id="connections"> <!-- div container - may want to style with bootstrap or straight-->
+              <img src="images\connections\alexa.png" alt="connection" height="42" width="42">
+              <img src="images\connections\adafruit.png" alt="connection" height="42" width="42">
+              <img src="images\connections\car.png" alt="connection" height="42" width="42">
+              <img src="images\connections\facebook.png" alt="connection" height="42" width="42">
+              <img src="images\connections\gdocs.png" alt="connection" height="42" width="42">
+              <img src="images\connections\gmail.png" alt="connection" height="42" width="42">
+              <img src="images\connections\IFTTT.png" alt="connection" height="42" width="42">
+              <img src="images\connections\insteon.png" alt="connection" height="42" width="42">
+              <img src="images\connections\lbulb.png" alt="connection" height="42" width="42">
+              <img src="images\connections\plant.png" alt="connection" height="42" width="42">
+              <img src="images\connections\slack.png" alt="connection" height="42" width="42">
+              <img src="images\connections\text.png" alt="connection" height="42" width="42">
+              <img src="images\connections\thermostat.png" alt="connection" height="42" width="42">
+              <img src="images\connections\tile.png" alt="connection" height="42" width="42">
+               <img src="images\connections\twilio.png" alt="connection" height="42" width="42">
+              <img src="images\connections\twitter.png" alt="connection" height="42" width="42">
+              <img src="images\connections\valve.png" alt="connection" height="42" width="42">
+              <img src="images\connections\zapier.png" alt="connection" height="42" width="42">
+              <img src="images\connections\logo.png" alt="connection" height="42" width="42">
+              </div>
+      </div>
+
+ <div class="col-md-12">
+          <h2>Hardware</h2>
+              <p>While Kore9 Systems is a software company, we occasionally have need for custom hardware solutions to offer our customers. When we initially went looking for customizable, flexible, off-the-shelf hardware to offer our customers, we didn't see much.</p>
+              <p>So we developed a core module to support a variety of sensors and custom endpoints. This module, and the recent proliferation of OEM wifi modules, have opened the door to a host of industrial and agricultural markets that we wouldn't have otherwise had access to. Call us to discuss your custom hardware application!</p>
+<br>
+  <div class="media">
+  <div class="media-left">
+    <!--img class="d-flex" src="..." alt="Generic placeholder image"-->
+    <img class="d-flex" src="images\hardware\board1.png" alt="hardware" width="175px" style="margin-right:20px">
+
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">C1 Module</h4>
+      <p>Version 1 kore9 module - this is the board that started it all, at a time when single board systems were a rarity. This board is a precursor to the mini, micro, nano, and long range (with antenna). It is included here for completeness and not recommended for new applications.</p>
+    </div>
+  </div>
+  <br>
+  <div class="media">
+  <div class="media-left">
+    <img class="d-flex" src="images\hardware\board3.png" alt="hardware" width="175px" style="margin-right:20px">
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">V2 Standard</h4>
+      <p>Our latest module integrates wifi a,b,g,n with fully featured on-board microprocessor capable of integrating with virtually any sensor or actuator. See the sensors and actuators sections below for some ideas!</p>
+    </div>
+  </div>
+<br>
+  <div class="media">
+  <div class="media-left">
+    <img class="d-flex" src="images\hardware\board2.jpg" alt="hardware" width="70px" style="margin-right:70px">
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Mini</h4>
+      <p>The mini core module sports limited i/o points to offer compact and custom board-level solutions such as wifi buttons, compact sensors, and integrations into existing enclosurs. Contact us with your specifications for compact IOT applications!</p>
+    </div>
+  </div>
+
+<div class="col-md-12">
+
+  <br>
+  <h2>Sensors</h2>
+  <p>Kore9 can provide you with a variety of sensor options to fill gaps in your infrastructure, depending on your needs. We span industries such as agriculture, industrial automation, and office automation. We specialize in software though, and you probably have endpoints you didn't even know about which you will want to connect first!</p>
+  <br>
+
+<!--border: 1px solid black; -->
+
+<div class="media" style="width:140px; display:inline-block;">
+  <img class="d-flex mr-3" src="images\sensors\occupancy.png" alt="image" width="100px">
+  <div class="media-body">
+    <h5 class="mt-0">Occupancy Sensing</h5>
+  </div>
+</div>
+
+<div class="media"  style="width:140px; display:inline-block;">
+  <img class="d-flex mr-3" src="images\sensors\ibutton.png" alt="image" width="100px">
+  <div class="media-body">
+    <h5 class="mt-0">Internet Button</h5>
+  </div>
+</div>
+
+<div class="media" style="width:140px; display:inline-block;">
+  <img class="d-flex mr-3" src="images\sensors\temperature.png" alt="image" width="100px">
+  <div class="media-body">
+    <h5 class="mt-0">Temperature</h5>
+  </div>
+</div>
+
+
+<div class="media" style="width:140px;  display:inline-block;">
+  <img class="d-flex mr-3" src="images\sensors\pyroelectric.png" alt="image" width="100px">
+  <div class="media-body">
+    <h5 class="mt-0">Infrared Sensing</h5>
+  </div>
+</div>
+
+<div class="media" style="width:140px;  display:inline-block;">
+  <img class="d-flex mr-3" src="images\sensors\tempprobe.png" alt="image" width="100px">
+  <div class="media-body">
+    <h5 class="mt-0">Temperature Probe</h5>
+  </div>
+</div>
+
+<div class="media" style="width:140px;  display:inline-block;">
+  <img class="d-flex mr-3" src="images\sensors\floatswitch.png" alt="image" width="100px">
+  <div class="media-body">
+    <h5 class="mt-0">Float Switch</h5>
+  </div>
+</div>
+
+<div class="media" style="width:140px; display:inline-block;">
+  <img class="d-flex mr-3" src="images\sensors\watsystem.png" alt="image" width="100px">
+  <div class="media-body">
+    <h5 class="mt-0">Watering System Sensing and Control</h5>
+  </div>
+</div>
+
+<!-- could add floatlevel  -->
+
+</div> <!-- container -->
+
+<br>
+
+<div class="col-md-12">
+
+<br>
+  <h2>Actuators</h2>
+  <p>The new IOT is about doing. Kore9 can provide you with a variety of actuator options. An actuator can be a simple switch, a relay, analog actuators, motors, and more esoteric forms of digital information such as audio, email and text. We specialize in software though, so we generally like to begin with an inventory of what you have, and connect those endpoints first!</p>
+  <br>
+
+ 
+
+  <!--standard relay, analog out, lighting, valve on/off, alarm-->
+<div class="media" style="width:140px; display:inline-block;">
+  <img class="d-flex mr-3 media-center" src="images\actuators\isolatedrelay.png" alt="image" width="100px">
+  <div class="media-body">
+    <h5 class="mt-0">Relay</h5>
+  </div>
+</div>
+<div class="media" style="width:140px; display:inline-block;">
+  <img class="d-flex mr-3" src="images\actuators\lightswitch.png" alt="image" width="100px">
+  <div class="media-body">
+    <h5 class="mt-0">Light</h5>
+  </div>
+</div>
+<div class="media" style="width:140px; display:inline-block;">
+  <img class="d-flex mr-3" src="images\actuators\valve.png" alt="image" width="100px">
+  <div class="media-body">
+    <h5 class="mt-0">Valve</h5>
+  </div>
+</div>
+<div class="media" style="width:140px; display:inline-block;">
+  <img class="d-flex mr-3" src="images\actuators\wifisocket.png" alt="image" width="100px">
+  <div class="media-body">
+    <h5 class="mt-0">Light Socket</h5>
+  </div>
+</div>
+<div class="media" style="width:140px; display:inline-block;">
+  <img class="d-flex mr-3" src="images\actuators\alarmtower.png" alt="image" width="100px">
+  <div class="media-body">
+    <h5 class="mt-0">Alarm</h5>
+  </div>
+</div>
+<div class="media" style="width:140px; display:inline-block;">
+  <img class="d-flex mr-3" src="images\actuators\zendesk.png" alt="image" width="100px">
+  <div class="media-body">
+    <h5 class="mt-0">Help Desk</h5>
+  </div>
+</div>
+<br><br><br><br>
+</div> <!-- container -->
+
+
+
+    <div class="col-md-12" style="height:700px">
+    <!-- google form embed test - works but has iframe, so would have to mess with direct version 
+    probably easy to just send with node at some point although really easy to create quizzes and modified
+    surveys etc. so keep around, can also include videos, has some styling also stats and other automation prob easy too 
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScWMhLHeVGaLckl9Kk2q7LPrm9WbUZKV5-HXvkcchFp6OzhaA/viewform?embedded=true" width="100%" scrolling="no" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfSH4SWAyPb4ikeSvdOHu4lY3Tu6cnR5TmV1vEWBQeJPngL8g/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+</div>
+
+     <!--  <div class="col-md-12">
+<h2>NODZ&trade; Register with us</h2>
+              <p>NODZ&trade; Register with us by giving us your email and text. Once we validate your registration you
+              will have created your first two nodes! Connect them together to create a text to email bridge!</p>
+              <br/>
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                  <div class="col-sm-8">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputText1" class="col-sm-2 control-label">Phone(Text)</label>
+                  <div class="col-sm-8">
+                    <input type="tel" class="form-control" id="inputText1" placeholder="We need your text # to validate it's you from time to time!">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                  <div class="col-sm-8">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                  </div>
+                </div>
+
+				<div class="form-group">
+                  <label for="inputComment" class="col-sm-2 control-label">Inquiry</label>
+                  <div class="col-sm-8">
+                    <textarea class="form-control" rows="5" id="inputComment" placeholder="Do you have any questions? What is your application?"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> Yes, it's ok to send me occasional info and create my NODZ&trade; account.
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!--div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Sign in</button>
+                  </div>
+                </div-->
+              <!-- </form>
+      </div> -->
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2017 Kore9 Systems, LLC</p>
+      </footer>
+    </div> <!-- /container -->
+
+    <!--script type="text/javascript">
+       function save_email_data(data){   // or at least the state
+          $http.post('/data', data, {headers: {'Content-Type': 'application/json'} })
+                                                            .then(function (response) {
+                                                                return response;
+                                                            });
+    </script-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script-->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

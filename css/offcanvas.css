@@ -1,0 +1,139 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  padding-top: 30px;
+}
+footer {
+  padding: 30px 0;
+} 
+.topbar-logo
+{
+  height:30px;
+  /*border:antiquewhite solid 1px;*/
+  margin: 0px 40px 0px 0px;
+  background:rgba(169, 169, 169, 0.15);
+}
+
+.sidebar-fixed {
+    position: fixed;
+    padding-top:30px;
+    /*top: 0;
+    left: 0;*/
+    width: 170px;/*
+    height: 100px;*/
+    /*border: 1px solid black;*/
+    background-color:darkgray;
+}
+
+
+
+#sidebar
+{
+  /*border-radius:5px;*/
+}
+
+#welcome
+{
+  background-color:red;
+  color:white;
+}
+
+#welcome1
+{
+  background-color:gray;
+  color:white;
+}
+
+#welcome2
+{
+  background-color:gray;
+  color:white;
+}
+
+#connections
+{
+  padding:30px 20px 20px 20px;
+}
+
+#connections img
+{
+  padding:5px;
+  margin:15px;
+  width:110px;height:110px;
+}
+
+/*#welcome h3 {color:white}*/
+
+
+/* The navigation menu links */
+.sidebar-offcanvas a {
+    /*padding: 4px 4px 4px 22px;*/
+  /*  text-decoration: none; */
+    font-size: 18px;
+    color: rgba(1, 1, 1, 1);
+    margin-top:15px;
+    /*display: block;
+    transition: 0.3s;*/
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar-offcanvas a:hover, .offcanvas a:focus{
+    color: rgba(251, 249, 249, 0.98);
+    background-color:gray!important;
+    } /* keep an eye on this override */
+    
+
+
+/*-------some sidebar styeing grabbed from web ---end --*/
+
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -30%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -30%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 30%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    /*left: 50%; /* 6 columns */
+    left: 30%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 30%; /* 6 columns */
+    /*width: 100%; /* 6 columns */
+  }
+}
